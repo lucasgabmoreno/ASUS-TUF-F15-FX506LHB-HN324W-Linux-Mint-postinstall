@@ -43,3 +43,9 @@ sudo update-initramfs -u
 ```
 sudo aurora
 ```
+
+---
+
+## Replace Meditek MT7921
+* Intel 6E AX210
+* Broadcom BCM94350ZAE / DW 1820A
