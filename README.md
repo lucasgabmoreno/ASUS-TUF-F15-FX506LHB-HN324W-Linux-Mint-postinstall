@@ -1,5 +1,9 @@
 # ASUS TUF F15 FX506LHB - Linux Mint - Postinstall
 
+* Intel Core i5-10300H / Comet Lake
+* Nvidia GTX 1650
+* Meditek MT7921
+
 ### Not working
 * Fn+left & Fn+right: Aura control
 * Fn+F5: Fan control
@@ -20,14 +24,17 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 
 ---
 
-## Install [XanMod Kernel](https://xanmod.org/) for gaming optimization
-```
-wget -qO - https://dl.xanmod.org/archive.key | sudo gpg --dearmor -o /usr/share/keyrings/xanmod-archive-keyring.gpg
-echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-release.list
-sudo apt update
-sudo apt install linux-xanmod-x64v3
-```
+## Update kernel
+1. Run Update manager > View > Linux Kernels
+2. Install last 6.2.x kernel
 
+---
+
+## Fix Mediatek wifi after upgrade kernel and drivers
+```
+sudo update-initramfs -u
+```
+   
 ---
 
 ## Install Aurora for RGB keyboard control
