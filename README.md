@@ -10,6 +10,14 @@
 
 ---
 
+## BIOS configs
+1. Turn on > F2
+2. Disable Secure Boot
+3. Disable Fast Boot
+   
+---
+
+
 ## Remove ACPI errors
 1. Install Grub Customizer
 ```
@@ -46,6 +54,19 @@ sudo aurora
 
 ---
 
+## Battery
+```
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+```
+> Option "i"
+```
+sudo auto-cpufreq --install
+```
+
+---
+
 ## Replace Meditek MT7921
 * Intel 6E AX210
 * Broadcom BCM94350ZAE / DW 1820A
+> If Broadcom, use this [driver installer](https://github.com/lucasgabmoreno/bashinstallers/tree/main/bcm43x)
