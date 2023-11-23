@@ -5,15 +5,15 @@
 * Meditek MT7921
 
 ### Not working
-* Fn+left & Fn+right: Aura control
-* Fn+F5: Fan control
+* `Fn + Left` & `Fn + Right`: Aura control
+* `Fn + F5`: Fan control
 
 ---
 
-## BIOS configs
-1. Turn on > F2
-2. Disable Secure Boot
-3. Disable Fast Boot
+## BIOS config
+1. Turn On > `F2`
+2. Advance mode(F7) > Boot > Base boot > `disabled`
+3. Advance mode(F7) > Security > Secure boot > Secure boot controñ > `disabled`
    
 ---
 
@@ -34,7 +34,7 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 
 ## Update kernel
 1. Run Update manager > View > Linux Kernels
-2. Install last 6.2.x kernel
+2. Install last 6.2+ kernel
 
 ---
 
