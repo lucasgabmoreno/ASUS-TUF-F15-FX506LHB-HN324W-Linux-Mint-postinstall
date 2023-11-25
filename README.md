@@ -7,6 +7,7 @@
 ### Not working
 * `Fn + Left` & `Fn + Right`: Aura control
 * `Fn + F5`: Fan control
+* DTS X Ultra
 
 ---
 
