@@ -34,7 +34,7 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 
 ## Update kernel
 1. Run Update manager > View > Linux Kernels
-2. Install last 6.2+ kernel
+2. Install last 6.1 + kernel
 
 ---
 
