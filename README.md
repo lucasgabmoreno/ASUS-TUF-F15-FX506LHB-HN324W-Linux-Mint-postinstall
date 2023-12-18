@@ -38,10 +38,10 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 
 ---
 
-## Fix Mediatek wifi after upgrade kernel and drivers
-```
-sudo update-initramfs -u
-```
+## Fix Mediatek wifi
+1. Press power button for 60 seconds
+2. Reboot
+3. If keyboard not working reboot again  
    
 ---
 
