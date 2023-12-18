@@ -13,7 +13,7 @@
 ## BIOS config
 1. Turn On > `F2`
 2. Advance mode(F7) > Boot > Base boot > `disabled`
-3. Advance mode(F7) > Security > Secure boot > Secure boot controñ > `disabled`
+3. Advance mode(F7) > Security > Secure boot > Secure boot control > `disabled`
    
 ---
 
@@ -41,7 +41,7 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 ## Fix Mediatek wifi
 1. Press power button for 60 seconds
 2. Reboot
-3. If keyboard not working reboot again  
+3. If keyboard isn't working, reboot again  
    
 ---
 
