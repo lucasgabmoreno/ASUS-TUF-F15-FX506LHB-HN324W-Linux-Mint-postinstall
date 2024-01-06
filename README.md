@@ -54,7 +54,8 @@ sudo aurora
 
 ---
 
-## Battery
+## Battery life
+Improve battery life
 ```
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git
 cd auto-cpufreq && sudo ./auto-cpufreq-installer
@@ -62,6 +63,18 @@ cd auto-cpufreq && sudo ./auto-cpufreq-installer
 > Option "i"
 ```
 sudo auto-cpufreq --install
+```
+
+---
+
+## Battery health
+Improve battery health using 80% limit charging
+```
+sudo apt install git -y
+git clone https://github.com/sreejithag/battery-charging-limiter-linux.git
+cd battery-charging-limiter-linux
+chmod +x limitd.sh
+sudo ./limitd.sh 80
 ```
 
 ---
