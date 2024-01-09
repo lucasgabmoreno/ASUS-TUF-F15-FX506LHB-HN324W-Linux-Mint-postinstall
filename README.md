@@ -67,18 +67,6 @@ sudo auto-cpufreq --install
 
 ---
 
-## Battery health
-Improve battery health using 80% limit charging
-```
-sudo apt install git -y
-git clone https://github.com/sreejithag/battery-charging-limiter-linux.git
-cd battery-charging-limiter-linux
-chmod +x limitd.sh
-sudo ./limitd.sh 80
-```
-
----
-
 ## Replace Meditek MT7921
 * Intel 6E AX210
 * Broadcom BCM94350ZAE / DW 1820A
