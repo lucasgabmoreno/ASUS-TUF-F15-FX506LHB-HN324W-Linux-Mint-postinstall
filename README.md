@@ -38,10 +38,19 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 
 ---
 
-## Fix Mediatek wifi
-1. Press power button for 60 seconds
+## Wifi not working
+### Compatible wifi cards, same problems:
+* Intel 6E AX210
+* Broadcom BCM94350ZAE / DW 1820A
+### Temporary fix:
+1. Press power button for 30 seconds
 2. Reboot
-3. If keyboard isn't working, reboot again  
+3. If keyboard isn't working, reboot again
+### Permanent fix:
+1. Open notebook and unmount wifi card
+2. Use electrical insulate tape and cover these 3 pins at front and 2 pins back:
+<img src="img/DW1820A_Cover_pins.jpg">
+3. This will cause not to get sleep your wifi card. It is not 100% permanent. If you experience a Wi-Fi drop, use the temporary method again by turning off for 30 seconds.
    
 ---
 
@@ -64,10 +73,3 @@ cd auto-cpufreq && sudo ./auto-cpufreq-installer
 ```
 sudo auto-cpufreq --install
 ```
-
----
-
-## Replace Meditek MT7921
-* Intel 6E AX210
-* Broadcom BCM94350ZAE / DW 1820A
-> If Broadcom, use this [driver installer](https://github.com/lucasgabmoreno/bashinstallers/tree/main/bcm43x)
