@@ -50,7 +50,7 @@ quiet splash loglevel=3 fbcon=nodefer video=efifb:nobgrt
 1. Open notebook and unmount wifi card
 2. Use electrical insulate tape and cover these 3 pins at front and 2 pins back:
 <img src="img/DW1820A_Cover_pins.jpg"><br>
-Source image: [Daliansky](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html) *
+Source image: [Daliansky](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)
 3. This will cause not to get sleep your wifi card. It is not 100% permanent. If you experience a Wi-Fi drop, use the temporary method again by turning off for 30 seconds.
    
 ---
