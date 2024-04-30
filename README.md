@@ -74,3 +74,21 @@ cd auto-cpufreq && sudo ./auto-cpufreq-installer
 ```
 sudo auto-cpufreq --install
 ```
+
+---
+
+## Nvidia Prime On-Demand
+
+### Steam Launch Options
+```
+__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia __NV_PRIME_RENDER_OFFLOAD_PROVIDER=NVIDIA-G0 %command%
+```
+
+### Heroic Launcher & Lutris Evironment Variables 
+
+| Paremeter     | Value |
+| :---------- | :---------- |
+| __NV_PRIME_RENDER_OFFLOAD    | 1     |
+| __VK_LAYER_NV_optimus   | NVIDIA_only       |
+| __GLX_VENDOR_LIBRARY_NAME   | nvidia       |
+| __NV_PRIME_RENDER_OFFLOAD_PROVIDER   | NVIDIA-G0      |
