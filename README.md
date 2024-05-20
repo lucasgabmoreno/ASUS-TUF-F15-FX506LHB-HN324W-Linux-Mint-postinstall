@@ -92,3 +92,16 @@ __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRA
 | __VK_LAYER_NV_optimus   | NVIDIA_only       |
 | __GLX_VENDOR_LIBRARY_NAME   | nvidia       |
 | __NV_PRIME_RENDER_OFFLOAD_PROVIDER   | NVIDIA-G0      |
+
+---
+
+## Dual/Multi Boot & Upgrade Troubleshoot
+<img src="img/asus-tuf-f15-motherboard-hard-drives-ssd-nvme.jpg"><br>
+Source image: [Laptop Media](https://laptopmedia.com/es/highlights/inside-asus-tuf-gaming-f15-fx506-2021-disassembly-and-upgrade-options/)
+### Disk 1
+* M.2 NVMe / SATA
+* Keep EFI, Windows (and/or [MacOS](https://github.com/lucasgabmoreno/ASUS-TUF-F15-FX506LHB-HN324W-Hackintosh)) at first disk.
+### Disk 2
+* M.2 NVMe (no SATA compatible)
+### Disk 3
+* 2.5" SSD / HDD
