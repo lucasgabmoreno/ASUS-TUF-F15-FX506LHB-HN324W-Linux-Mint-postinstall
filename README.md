@@ -77,6 +77,14 @@ sudo auto-cpufreq --install
 
 ---
 
+## Secure Boot
+Enable Linux for Secure Boot
+```
+sudo apt installl shim-signed -y
+```
+
+---
+
 ## Nvidia Prime On-Demand
 
 ### Steam Launch Options
